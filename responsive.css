@@ -1,7 +1,7 @@
 
 /* mobile menu  */
 
-/* @media screen and (min-width: 577px) and (max-width:1970px){
+ @media screen and (min-width: 577px) and (max-width:1970px){
 
     .mobile-menu{
         display: none;
@@ -11,32 +11,32 @@
 
     
 
-} */
+} 
 
 @media screen  and (max-width:576px){
 
 
     /* mobie menu style  */
-/* 
-    body {
+ 
+    /* body {
         max-width: 100%;
         overflow-x: hidden;
       }
     header{
         max-width: 100%;
         overflow-x: hidden;
-    }
+    } */
     .main-header{
         display: none;
       
         
     }
     .mobile-menu{
-        width: 400px;
+       
         
     }
      .header-mobile{
-         width: 300px; 
+         
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -59,6 +59,14 @@
 }
 
   /* mobie menu style end  */
+
+
+
+
+
+
+
+
 
 
 /* hero section start  */
