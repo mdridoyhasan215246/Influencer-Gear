@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    --primary-font:"Poppins", sans-serif;
+    --secondary-font:"Inter", sans-serif;
+    --copyright-font:"Manrope", sans-serif;
+    --text-color:#6C6C6C;
+    --main-heading-color:#3A3A3A;
+    --sub-heading-color:#18191F;
+    --btn-color:#E02C6D;
+    font-size: 10px;
+
+
+
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+}
+
+
+
+body{
+   
+   
+    font-family: var(--primary-font);
+    background-color: #FFFFFF;
+    font-size: 1.6rem;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+/* header style start  */
+
+
+header{
+    padding: 50px 0pc;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo h2{
+    
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 3.6rem;
+
+
+}
+
+
+.header-right{
+    display: flex;
+   gap: 34px;
+    align-items: center;
+}
+
+.header-icons{
+    display: flex;
+    gap: 34px;
+     align-items: center;
+}
+.header-menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+     align-items: center;
+
+    
+}
+.header-menu ul li a{
+    color: #3A3A3A;
+}
+
+
+
+
+/* hero style start  */
+
+.hero-container{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+    
+}
+
+.hero-left{
+    flex-basis: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.hero-left h1{
+  
+font-size: 5.2rem;
+font-weight: 700;
+line-height: 7.0rem;
+color: var(--main-heading-color);
+
+}
+.hero-left p{
+  
+
+font-weight: 600;
+line-height: 2.4rem;
+
+
+}
+
+.primary-btn{
+    background-color: var(--btn-color);
+    color: white;
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    
+  
+    
+
+
+}
+.primary-btn img{
+    vertical-align: middle;
+}
+
+.hero-right{
+    flex-basis: 45%;
+   
+    border: 3px solid #F1E4FF;
+
+    text-align: center;
+    /* background-image: url(./images/camera\ bg.svg); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+   padding: 40px;
+   border-radius: 50%;
+   
+  
+}
+.hero-right img{
+
+    border-radius: 100%;
+    text-align: center;
+background-position: center;
+ background-color:#F1E4FF;
+}
+
+
+/* hero section style end  */
+
+/* sponser style start  */
+
+
+.sponser-section{
+    margin-top: 70px;
+}
+.sponser-container{
+    margin: 40px auto;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+   
+   
+}
+.top-border{
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    ;
+    
+    height: 1px;
+}
+.bottom-border{
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+
+    height: 2px;
+}
+
+
+
+/* popular collection style start  */
+
+.popular-section{
+    margin-top: 100px;
+
+}
+
+.popular-heading h2{
+
+
+font-size: 2.8rem;
+font-weight: 600;
+line-height:7.0rem;
+color: #3A3A3A;
+text-align: center;
+padding-bottom: 40px;
+
+
+
+}
+
+.popular-card{
+    width: 329px;
+    height: 490px;
+    border-radius: 5px ;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px #00000026;
+   padding: 17px 15px;
+
+
+
+    
+}
+.popular-card h3{
+    
+color: #18191F; 
+font-size: 2.8rem;
+font-weight: 500;
+line-height: 4.0rem;
+
+}
+.popular-card h4{
+    font-family: var(--secondary-font);
+font-size: 2.4rem;
+font-weight: 400;
+line-height: 3.6rem;
+
+
+}
+.popular-card p{
+    color: #787885;
+    font-family:var(--secondary-font);
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 2.5rem;
+letter-spacing: 0.018em;
+
+
+
+}
+
+
+.popular-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 40px;
+   padding: 0px 50px;
+}
+
+
+
+
+
+.see-more-btn{
+    color: var(--btn-color);
+font-weight: 700;
+line-height: 2.4rem;
+
+
+
+
+}
+.see-more-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+  
+
+.see-more-btn img{
+    vertical-align: middle;
+
+}
